@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(test)
 
+# set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_BUILD_TYPE Release)
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_LIST_DIR}/cmake")
 option(BUILD_CUDA "Build GPU ver" ON)
 

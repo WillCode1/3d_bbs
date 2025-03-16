@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
 project(bbs3d)
 
+# set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_BUILD_TYPE Release)
+
 ## find thirdparty/Eigen or Eigen3 package
 option(USE_THIRDPARTY_EIGEN "Include thirdparty eigen" OFF)
 file(GLOB entries "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/Eigen/*")
