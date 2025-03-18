@@ -1,8 +1,8 @@
 ################[Necessary]################
 ## Folder paths
-target_clouds: "your_path/target"
-source_clouds: "your_path/source"
-output_folder: "your_path/output"
+target_clouds: "/home/will/Downloads/test_data/target"
+source_clouds: "/home/will/Downloads/test_data/source"
+output_folder: "/home/will/Downloads/test_data/output"
 
 ## 3D-BBS parameters
 min_level_res: 1.0 # [m], e.g. outdoor: 1.0, indoor: 0.5
