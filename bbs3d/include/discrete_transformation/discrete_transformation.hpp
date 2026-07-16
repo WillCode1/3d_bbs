@@ -2,6 +2,12 @@
 #include <Eigen/Core>
 
 template <typename T>
+using Vector3 = Eigen::Matrix<T, 3, 1>;
+
+template <typename T>
+using Matrix4 = Eigen::Matrix<T, 4, 4>;
+
+template <typename T>
 class DiscreteTransformation {
 public:
   DiscreteTransformation() : score(0), level(0), x(0), y(0), z(0), roll(0), pitch(0), yaw(0) {}
